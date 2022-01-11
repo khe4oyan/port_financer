@@ -1,0 +1,36 @@
+/*-----------------------*/
+/*			by Khechoyan    */
+/*-----------------------*/
+.container{
+	width: 100%;
+	display: flex;
+}
+.container > div{
+	flex: 1;
+}
+.container .people img{
+	width: 100%;
+}
+.container .content{
+	background: #28A745;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .content div{
+	padding: 2rem;
+	font-size: 1.5rem;
+}
+.container .content div h2{
+	padding: 1rem 0rem;
+}
+.container .content div a{
+	margin-top: 1rem;
+	display: inline-block;
+	padding: 1rem 1.5rem;
+	color: white;
+	border: .1rem solid white;
+	border-radius: 20%;
+	text-decoration: none;
+}

@@ -1,0 +1,177 @@
+/*-----------------------*/
+/*			by Khechoyan    */
+/*-----------------------*/
+*{
+	margin: 0rem;
+	padding: 0rem;
+	box-sizing: border-box;
+}
+header::before{
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .4);
+}
+header{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background: url(img/home/showcase.jpg) no-repeat center center / cover;
+}
+header #navbar{
+	width: 100%;
+	color: white;
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	top: 0;
+	left: 0;
+	background: rgba(50, 50, 50, .6);
+	display: flex;
+}
+header #navbar .logo .text-primary{
+	color: #28A745;
+}
+header #navbar nav ul{
+	display: flex;
+	list-style: none;
+}
+header #navbar nav ul li a{
+	padding: 1.3rem;
+	color: white;
+	text-decoration: none;
+}
+header #navbar nav ul li a:hover{
+	border-bottom: .2rem solid #28A745;
+}
+header .content{
+	z-index: 1;
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+}
+header .content p{
+	padding: 1rem 0rem 3rem;
+}
+header .content a{
+	background: #28A745;
+	color: white;
+	text-decoration: none;
+	padding: 1.5rem 2rem;
+}
+#about{
+	display: flex;
+	width: 100%;
+	padding: 2rem 2.5rem;
+	justify-content: space-around;
+}
+#about .box{
+	text-align: center;
+}
+#about .box i{
+	background: #28A745;
+	color: white;
+	padding: 1.3rem;
+	border-radius: 50%;
+}
+#about .box h3{
+	padding: 1rem 1.5rem;
+}
+.header2{
+	font-size: 1.5rem;
+	padding-top: 2rem;
+	text-align: center;
+}
+.header2 h2{
+	padding: 1rem;
+}
+.header2 p{
+	font-size: 1rem;
+}
+#cases #images{
+	padding-top: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+#cases #images img{
+	padding: .2%;
+	width: 25%;
+}
+#blog .content{
+	background: #0284D0;
+}
+#contact .team {
+	display: flex;
+}
+#contact .team .people{
+	margin-top: 4rem;
+	font-size: 1.2rem;
+	text-align: center;
+}
+#contact .team .people img{
+	width: 90%;
+	border-radius: 50%;
+}
+#contact .team .people p{
+	padding: 2rem;
+}
+.form{
+	display: flex;
+}
+.form > div{
+	flex: 1;
+}
+.form > div img{
+	width: 100%;
+}
+.form form{
+	flex: 1;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	background: #F4F4F4;
+}
+.form form h1{
+	font-size: 3rem;
+}
+.form form input{
+	font-size: 1.4rem;
+	margin: 1rem 0rem;
+	padding: 1rem;
+	border: 0;
+}
+.form form input[type="submit"]{
+	background: #28A745;
+	color: white;
+	border-radius: .5rem;
+}
+footer{
+	background: #333;
+	color: white;
+	padding: 1.5rem;
+	
+}	
+footer .icon{
+	margin: auto;
+	width: 30%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: space-around;
+	grid-gap: .5rem;
+
+}
+footer .icon img{
+	width: 2rem;
+	margin-bottom: .5rem;
+}
+footer .copy{
+	text-align: center;
+}
